@@ -11,17 +11,20 @@ This device is effectively a high-speed analog multiplexer, based on a tree of
 three [SV7030 USB 2.0 switch](http://product.savitech-ic.com/DataSheet/SV7030DS-REV095a.pdf)
 chips controlled by an [STM0S003F3 microcontroller](https://www.st.com/resource/en/datasheet/stm8s003k3.pdf).
 
+## Firmware
+
 The STM8 is a low-cost micro with 8kB of flash memory and an available PCB footprint
 for an STLink or compatible debug interface. There's no GCC or LLVM port, but we can
 tolerate SDCC for a small project like this!
-
-## Firmware
 
 The included firmware is written in C for the bare metal, no vendor libraries are needed.
 It supports switching channels using the built-in button or an optional wired remote.
 The original firmware had quite bad button debouncing, which is fixed. I've also omitted
 support for automatic switching with voltage sensing. It could be added, but I didn't want
 the feature as I found it distracting.
+
+* Build the firmware with [SDCC](http://sdcc.sourceforge.net/).
+* Install it with either [OpenOCD](http://openocd.org/) or [stm8flash](https://github.com/vdudouyt/stm8flash)
 
 ## Remote
 
