@@ -67,7 +67,6 @@ static inline void gpio_mode_float(gpio_t port, uint8_t pin)
     port->ddr &= ~pin;
     port->cr1 &= ~pin;
     port->cr2 &= ~pin;
-
 }
 
 static inline void gpio_mode_pull_up(gpio_t port, uint8_t pin)
@@ -105,7 +104,7 @@ void gpio_init()
     gpio_mode_float(PIN_TUCOPLEX_T);
 }
 
-void gpio_led_set_channel(uint8_t ch)
+void led_set_channel(uint8_t ch)
 {
     gpio_output(PIN_LED1, ch != 0);
     gpio_output(PIN_LED2, ch != 1);
@@ -113,7 +112,7 @@ void gpio_led_set_channel(uint8_t ch)
     gpio_output(PIN_LED4, ch != 3);
 }
 
-void gpio_usb_set_channel(uint8_t ch)
+void usb_set_channel(uint8_t ch)
 {
     gpio_output(PIN_SEL_01, ch & 1);
     gpio_output(PIN_SEL_23, ch & 1);
@@ -122,8 +121,8 @@ void gpio_usb_set_channel(uint8_t ch)
 
 void set_channel(uint8_t ch)
 {
-    gpio_led_set_channel(ch);
-    gpio_usb_set_channel(ch);
+    led_set_channel(ch);
+    usb_set_channel(ch);
 }
 
 void scan_one_led(gpio_t cathode_port, uint8_t cathode_pin,
