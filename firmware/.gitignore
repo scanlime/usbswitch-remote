@@ -1,6 +1,5 @@
 *.asm
 *.cdb
-*.ihx
 *.lk
 *.lst
 *.map

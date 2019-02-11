@@ -24,7 +24,7 @@ The original firmware had quite bad button debouncing, which is fixed. I've also
 support for automatic switching with voltage sensing. It could be added, but I didn't want
 the feature as I found it distracting.
 
-* Build the firmware with [SDCC](http://sdcc.sourceforge.net/).
+* Build the firmware with [SDCC](http://sdcc.sourceforge.net/) (optional).
 * Install it with either [OpenOCD](http://openocd.org/) or [stm8flash](https://github.com/vdudouyt/stm8flash)
 
 ## Remote
