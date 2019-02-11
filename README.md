@@ -9,13 +9,14 @@ in the center. I'm not sure if those units use compatible firmware.
 
 This device is effectively a high-speed analog multiplexer, based on a tree of
 three [SV7030 USB 2.0 switch](http://product.savitech-ic.com/DataSheet/SV7030DS-REV095a.pdf)
-chips controlled by an [STM0S003F3 microcontroller](https://www.st.com/resource/en/datasheet/stm8s003k3.pdf).
+chips controlled by an [STM8S003F3 microcontroller](https://www.st.com/resource/en/datasheet/stm8s003k3.pdf).
 
 ## Firmware
 
-The STM8 is a low-cost micro with 8kB of flash memory and an available PCB footprint
-for an STLink or compatible debug interface. There's no GCC or LLVM port, but we can
-tolerate SDCC for a small project like this!
+The STM8 is a low-cost 8-bit micro with 8kB of flash memory, and there's an available PCB footprint
+for an STLink or compatible debug interface.
+
+There is no GCC or LLVM port, but we can tolerate [SDCC](http://sdcc.sourceforge.net/) for a small project like this!
 
 The included firmware is written in C for the bare metal, no vendor libraries are needed.
 It supports switching channels using the built-in button or an optional wired remote.
