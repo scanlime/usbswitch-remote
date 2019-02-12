@@ -247,7 +247,7 @@ U 1 1 5C653A43
 P 7650 3700
 F 0 "SW1" H 7650 3893 50  0000 C CNN
 F 1 "SW_Push_LED_Separate" H 7650 3550 50  0001 C CNN
-F 2 "SW_LightedPush_ITW_Series39" H 7550 3600 50  0001 C CNN
+F 2 "4button-3wire:SW_LightedPush_ITW_Series39_SmallPads" H 7550 3600 50  0001 C CNN
 F 3 "" H 7550 3600 50  0001 C CNN
 	1    7650 3700
 	1    0    0    -1  
@@ -258,7 +258,7 @@ U 2 1 5C654913
 P 6900 2100
 F 0 "SW1" H 6891 2225 50  0000 C CNN
 F 1 "SW_Push_LED_Separate" H 6900 1950 50  0001 C CNN
-F 2 "SW_LightedPush_ITW_Series39" H 6800 2000 50  0001 C CNN
+F 2 "4button-3wire:SW_LightedPush_ITW_Series39_SmallPads" H 6800 2000 50  0001 C CNN
 F 3 "" H 6800 2000 50  0001 C CNN
 	2    6900 2100
 	1    0    0    -1  
@@ -269,7 +269,7 @@ U 1 1 5C656F01
 P 7650 4200
 F 0 "SW2" H 7650 4393 50  0000 C CNN
 F 1 "SW_Push_LED_Separate" H 7650 4050 50  0001 C CNN
-F 2 "SW_LightedPush_ITW_Series39" H 7550 4100 50  0001 C CNN
+F 2 "4button-3wire:SW_LightedPush_ITW_Series39_SmallPads" H 7550 4100 50  0001 C CNN
 F 3 "" H 7550 4100 50  0001 C CNN
 	1    7650 4200
 	-1   0    0    -1  
@@ -280,7 +280,7 @@ U 2 1 5C656F07
 P 6900 2600
 F 0 "SW2" H 6892 2725 50  0000 C CNN
 F 1 "SW_Push_LED_Separate" H 6900 2450 50  0001 C CNN
-F 2 "SW_LightedPush_ITW_Series39" H 6800 2500 50  0001 C CNN
+F 2 "4button-3wire:SW_LightedPush_ITW_Series39_SmallPads" H 6800 2500 50  0001 C CNN
 F 3 "" H 6800 2500 50  0001 C CNN
 	2    6900 2600
 	-1   0    0    -1  
@@ -291,7 +291,7 @@ U 1 1 5C6582DF
 P 7650 4750
 F 0 "SW3" H 7650 4943 50  0000 C CNN
 F 1 "SW_Push_LED_Separate" H 7650 4600 50  0001 C CNN
-F 2 "SW_LightedPush_ITW_Series39" H 7550 4650 50  0001 C CNN
+F 2 "4button-3wire:SW_LightedPush_ITW_Series39_SmallPads" H 7550 4650 50  0001 C CNN
 F 3 "" H 7550 4650 50  0001 C CNN
 	1    7650 4750
 	-1   0    0    -1  
@@ -302,7 +302,7 @@ U 2 1 5C6582E5
 P 8400 2100
 F 0 "SW3" H 8391 2225 50  0000 C CNN
 F 1 "SW_Push_LED_Separate" H 8400 1950 50  0001 C CNN
-F 2 "SW_LightedPush_ITW_Series39" H 8300 2000 50  0001 C CNN
+F 2 "4button-3wire:SW_LightedPush_ITW_Series39_SmallPads" H 8300 2000 50  0001 C CNN
 F 3 "" H 8300 2000 50  0001 C CNN
 	2    8400 2100
 	1    0    0    -1  
@@ -313,7 +313,7 @@ U 1 1 5C6597F9
 P 7650 5250
 F 0 "SW4" H 7650 5443 50  0000 C CNN
 F 1 "SW_Push_LED_Separate" H 7650 5100 50  0001 C CNN
-F 2 "SW_LightedPush_ITW_Series39" H 7550 5150 50  0001 C CNN
+F 2 "4button-3wire:SW_LightedPush_ITW_Series39_SmallPads" H 7550 5150 50  0001 C CNN
 F 3 "" H 7550 5150 50  0001 C CNN
 	1    7650 5250
 	-1   0    0    -1  
@@ -324,7 +324,7 @@ U 2 1 5C6597FF
 P 8400 2600
 F 0 "SW4" H 8392 2725 50  0000 C CNN
 F 1 "SW_Push_LED_Separate" H 8400 2450 50  0001 C CNN
-F 2 "SW_LightedPush_ITW_Series39" H 8300 2500 50  0001 C CNN
+F 2 "4button-3wire:SW_LightedPush_ITW_Series39_SmallPads" H 8300 2500 50  0001 C CNN
 F 3 "" H 8300 2500 50  0001 C CNN
 	2    8400 2600
 	-1   0    0    -1  
