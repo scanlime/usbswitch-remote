@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 4button-3wire)(type Legacy)(uri ${KIPRJMOD}/4button-3wire.lib)(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 4button-3wire)(type KiCad)(uri ${KIPRJMOD}/4button-3wire.pretty)(options "")(descr ""))
+)
